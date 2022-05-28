@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="비플 : 비건 플래너" />
+    <meta property="og:url" content="http://mrrobot.dothome.co.kr/" />
+    <meta property="og:image" content="http://mrrobot.dothome.co.kr//images/thum.jpg" />
+    <meta property="og:description" content="쉬운 비건 쉬운 실천! 비플과 함께 해보세요." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="비플 : 비건 플래너" />
+    <meta name="twitter:url" content="http://mrrobot.dothome.co.kr/" />
+    <meta name="twitter:image" content="http://mrrobot.dothome.co.kr/images/thum.jpg" />
+    <meta name="twitter:description" content="쉬운 비건 쉬운 실천! 비플과 함께 해보세요." />
+    <meta name="description" content="쉬운 비건 쉬운 실천! 비플과 함께 해보세요.">
+    <meta name='keywords' content='비건, 비플, 비건플래너, 쉬운 실천, 투두리스트' />
+    <!-- <meta name="format-detection" content="telephone=no"> -->
+    
+    <link rel="icon" href="./source/favicon-32x32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="./source/apple-icon-180x180.png" sizes="180x180" />
+    
+    <title>비플 : 비건 플래너</title>
+    <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <!-- To-do List Style -->
+    <!-- <link href="./css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <style>
+        /* Overwriting styles for navigation bullets
+	    * --------------------------------------- */
+        #fp-nav ul li a span,
+        .fp-slidesNav ul li a span {
+            background: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <h1><img src="./source/BI.png" alt="비플"></h1>
+            <nav>
+                <ul id="menu">
+                    <li data-menuanchor="4rdPage"><a href="#4rdPage">진단테스트</a></li>
+                    <li data-menuanchor="5rdPage"><a href="#5rdPage">투두리스트</a></li>
+                    <li data-menuanchor="6rdPage"><a href="#6rdPage">커뮤니티</a></li>
+                    <li data-menuanchor="7rdPage"><a href="#7rdPage">포인트 상점</a></li>
+                </ul>
+
+                <button id="mobileMenu" class="menu-trigger">
+                    <span class="blind">메뉴보기</span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <div class="intro">
+                <h2>비건 플래너</h2>
+                <p>
+                    진단 테스트로 나의 비건 성향을 알고 입문해볼 수 있어요. 투두 리스트, 커뮤니티, 포인트 상점 등 다양한 서비스를 즐겨보세요.
+                </p>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <h2>비플 소개 영상</h2>
+            <iframe width="1000px" height="520px" src="https://www.youtube.com/embed/DKhp_CO0s6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="section" id="section2">
+            <h2>로고 디자인 의미</h2>
+            <p id="temp">text</p>
+
+            <div id="imgSet">
+                <div id="picSet">
+                    <img id="pic0" src="./source/BI.png" alt="그림 설명1">
+                    <dl id="text0">
+                        <dt>1. 긴제목</dt>
+                        <dd>짧은 제목 그림1설명이 들어갑니다.</dd>
+                    </dl>
+                    
+                    <img id="pic1" src="./source/BI.png" alt="그림 설명2">
+                    <dl id="text1">
+                        <dt>2. 긴제목</dt>
+                        <dd>짧은 제목 그림2설명이 들어갑니다.</dd>
+                    </dl>
+
+                    <img id="pic2" src="./source/BI.png" alt="그림 설명3">
+                    <dl id="text2">
+                        <dt>3. 긴제목</dt>
+                        <dd>짧은 제목 그림3설명이 들어갑니다.</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section" id="section3">
+            <h2>진단 테스트</h2>
+        </div>
+
+        <div class="section" id="section4">
+            <h2>투두 리스트</h2>
+            <div class="container">
+                <h2 class="text-center">나만의 비건 투두 리스트</h2>
+
+                <div class="form-group">
+                    <label for="itemInput">To-do 추가하기</label>
+                    <input type="text" class="form-control" name="" id="itemInput">
+                </div>
+                <button id="addButton" class="btn btn-primary">추가하기</button>
+                <button id="clearButton" class="btn btn-danger">모두 삭제</button>
+                <h3>Todo List</h3>
+                <ul id="todoList"></ul>
+
+            </div>
+        </div>
+        <div class="section" id="section5">
+            <h2>커뮤니티</h2>
+        </div>
+        <div class="section" id="section6">
+            <h2>포인트 상점</h2>
+        </div>
+        <div class="section" id="section7">
+            <h2>서비스 권유</h2>
+        </div>
+
+        <div class="section fp-auto-height" id="footerWrap">
+            <div class="footer">
+                <address>
+                    Contact. <br>
+                    Email. <a href="mailto:mrrobot@kaywon.ac.kr">mrrobot@kaywon.ac.kr</a><br>
+                </address>
+                <p>copyrightⓒ 2022 VEGAN PLANNER All rights reserved.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- To-do List JS -->
+    <script type="text/javascript" src="./js/todo.js"></script>
+    <!-- All page JS -->
+    <script type="text/javascript" src="./js/fullpage.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="비플 : 비건 플래너" />
+    <meta property="og:url" content="http://mrrobot.dothome.co.kr/" />
+    <meta property="og:image" content="http://mrrobot.dothome.co.kr//images/thum.jpg" />
+    <meta property="og:description" content="쉬운 비건 쉬운 실천! 비플과 함께 해보세요." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="비플 : 비건 플래너" />
+    <meta name="twitter:url" content="http://mrrobot.dothome.co.kr/" />
+    <meta name="twitter:image" content="http://mrrobot.dothome.co.kr/images/thum.jpg" />
+    <meta name="twitter:description" content="쉬운 비건 쉬운 실천! 비플과 함께 해보세요." />
+    <meta name="description" content="쉬운 비건 쉬운 실천! 비플과 함께 해보세요.">
+    <meta name='keywords' content='비건, 비플, 비건플래너, 쉬운 실천, 투두리스트' />
+    
+    <link rel="icon" href="./source/favicon-32x32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="./source/apple-icon-180x180.png" sizes="180x180" />
+    
+    <title>비플 : 비건 플래너</title>
+    <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="./css/examples.css" />
+    <!-- To-do List Style -->
+    <link href=".css/main.css" rel="stylesheet">
+    <link href=".css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Overwriting styles for navigation bullets
+	* --------------------------------------- */
+        #fp-nav ul li a span,
+        .fp-slidesNav ul li a span {
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+    </ul>
+
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <div class="intro">
+                <h1>비건 플래너</h1>
+                <p>
+                    진단 테스트로 나의 비건 성향을 알고 입문해볼 수 있어요. 투두 리스트, 커뮤니티, 포인트 상점 등 다양한 서비스를 즐겨보세요.
+                </p>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <h1>비플 소개 영상</h1>
+        </div>
+        <div class="section" id="section2">
+            <h1>로고 디자인 의미</h1>
+        </div>
+        <div class="section" id="section2">
+            <h1>진단 테스트</h1>
+        </div>
+        <div class="section" id="section2">
+            <h1>투두 리스트</h1>
+            <div class="container">
+                <h2 class="text-center">나만의 비건 투두 리스트</h2>
+
+                <div class="form-group">
+                    <label for="itemInput">To-do 추가하기</label>
+                    <input type="text" class="form-control" name="" id="itemInput">
+                </div>
+                <button id="addButton" class="btn btn-primary">추가하기</button>
+                <button id="clearButton" class="btn btn-danger">모두 삭제</button>
+                <h3>Todo List</h3>
+                <ul id="todoList"></ul>
+
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <h1>커뮤니티</h1>
+        </div>
+        <div class="section" id="section2">
+            <h1>포인트 상점</h1>
+        </div>
+        <div class="section" id="section2">
+            <h1>서비스 권유</h1>
+        </div>
+    </div>
+
+    <footer>
+        <img src="./source/">
+        <p></p>
+        <address>
+
+        </address>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="./js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            navigation: true,
+            navigationTooltips: ['Page 1', 'Page 2', 'Any text!'],
+            showActiveTooltip: true,
+            menu: '#menu'
+        });
+    </script>
+
+</body>
+
+</html>
