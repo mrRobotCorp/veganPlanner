@@ -22,21 +22,12 @@
     <title>비플 : 비건 플래너</title>
     <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
-
-    <style>
-        /* Overwriting styles for navigation bullets
-	    * --------------------------------------- */
-        #fp-nav ul li a span,
-        .fp-slidesNav ul li a span {
-            background: #000;
-        }
-    </style>
 </head>
 
 <body>
     <header>
         <div id="header">
-            <h1><a href="#firstPage"><img src="./source/BI.png" alt="비플"></a></h1>
+            <h1><a href="#firstPage"><img src="./source/BI_light.png" alt="비플"></a></h1>
             <nav>
                 <ul id="menu">
                     <li data-menuanchor="4rdPage"><a href="#4rdPage">진단테스트</a></li>
@@ -45,12 +36,12 @@
                     <li data-menuanchor="7rdPage"><a href="#7rdPage">포인트 상점</a></li>
                 </ul>
 
-                <button id="mobileMenu" class="menu-trigger">
+                <!-- <button id="mobileMenu" class="menu-trigger">
                     <span class="blind">메뉴보기</span>
                     <span></span>
                     <span></span>
                     <span></span>
-                </button>
+                </button> -->
             </nav>
         </div>
     </header>
@@ -58,11 +49,13 @@
     <div id="fullpage">
         <div class="section" id="section0">
             <div class="intro">
+                <div id="easyVegan"></div>
                 <h2>비건 플래너</h2>
                 <p>
                     진단 테스트로 나의 비건 성향을 알고 입문해볼 수 있어요. 투두 리스트, 커뮤니티, 포인트 상점 등 다양한 서비스를 즐겨보세요.
                 </p>
             </div>
+            <div id="section0_right"><img src="./source/section0_right.png"></div>
         </div>
         <div class="section" id="section1">
             <h2>비플 소개 영상</h2>
@@ -71,7 +64,6 @@
 
         <div class="section" id="section2">
             <h2>디자인 컨셉</h2>
-
             <div class="slide active" id="slide1">
                 <div class="intro">
                     <h3>About icon</h3>
@@ -144,6 +136,7 @@
 
         <div class="section fp-auto-height" id="footerWrap">
             <div class="footer">
+                
                 <address>
                     Contact. <br>
                     Email. <a href="mailto:mrrobot@kaywon.ac.kr">mrrobot@kaywon.ac.kr</a><br>
@@ -151,7 +144,12 @@
                 <p>copyrightⓒ 2022 VEGAN PLANNER All rights reserved.</p>
             </div>
         </div>
-
+    </div>
+    
+    <div id="scrollTop">
+        <a href="#firstPage">
+            <span class="blind">맨 위로 가기</span><span class="topTxt">Top</span>
+        </a>
     </div>
 
 
@@ -159,6 +157,7 @@
     <script type="text/javascript" src="./js/todo.js"></script>
     <!-- All page JS -->
     <script type="text/javascript" src="./js/fullpage.js"></script>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script src="./js/script.js"></script>
 
 </body>

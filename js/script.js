@@ -28,6 +28,19 @@ var myFullpage = new fullpage('#fullpage', {
     menu: '#menu'
 });
 
+document.getElementById("easyVegan").innerText = "쉬운 비건, 쉬운 실천!";
+
+
+// ------------------ scrollTop -------------------------
+
+// document.getElementById("scrollTop").onclick = function () {
+//     window.scrollTo({
+//         top: 0,
+//         left: 0,
+//         behavior: 'smooth'
+//     });
+// }
+
 // --------------section2 img slide--------------------
 // const picWidth = 1100;
 // let moveNum = 0;
