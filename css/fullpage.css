@@ -38,9 +38,9 @@ transition: all 0.3s ease-out; }
 
 .fp-arrow { width: 0; height: 0; border-style: solid; } 
 
-.fp-arrow.fp-prev { border-width: 22.5px 18px 22.5px 0; border-color: transparent #484848 transparent transparent; } 
+.fp-arrow.fp-prev { border-width: 22.5px 18px 22.5px 0; border-color: transparent #00203F transparent transparent; } 
 
-.fp-arrow.fp-next { border-width: 22.5px 0 22.5px 18px; border-color: transparent transparent transparent #484848; } 
+.fp-arrow.fp-next { border-width: 22.5px 0 22.5px 18px; border-color: transparent transparent transparent #00203F; } 
 
 /* .fp-scrollable { overflow: hidden; position: relative; } */
 /* .fp-scroller { overflow: hidden; } */
