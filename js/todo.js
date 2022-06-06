@@ -137,5 +137,5 @@ window.onload = function(){
 
 };
 //add an event binder to the button
-addButton.addEventListener('click',addToList);
-clearButton.addEventListener('click',clearList);
+addButton.addEventListener('click', addToList);
+clearButton.addEventListener('click', clearList);
