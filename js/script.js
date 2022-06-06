@@ -20,8 +20,8 @@ window.onload = function(){
     document.querySelector(".fontInfo").innerText = "Noto Snas로 가독성이 높은 서체로 전체 본문에 사용하였습니다.";
 
     document.querySelector(".testTxt").innerText = "진단테스트로 나의 비건 성향에 대해 알아보자";
+    document.querySelector(".todoTxt").innerText = "투두리스트를 통해 실생활에서 직접 비건을 실천해보자!";
     document.querySelector(".communityTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
-
     document.querySelector(".pointTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
     
     // -------------------- section9 cursor ---------------------------
