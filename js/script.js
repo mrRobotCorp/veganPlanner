@@ -12,6 +12,9 @@ window.onload = function(){
     document.querySelector(".keyword1").innerText = "생기있는";
     document.querySelector(".keyword2").innerText = "친근한";
     document.querySelector(".keyword3").innerText = "부드러운";
+
+    document.querySelector(".testTxt").innerText = "진단테스트로 나의 비건 성향에 대해 알아보자";
+    document.querySelector(".communityTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
     
     // ----------------- section9 cursor ------------------
     const cursor = document.querySelector(".cursor");
