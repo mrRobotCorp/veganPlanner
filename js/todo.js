@@ -13,7 +13,7 @@ var changeToComp = function(){
     var parent = this.parentElement;
     console.log('Changed to complete');
     parent.className = 'uncompleted well';
-    this.innerText = 'Incomplete';
+    // this.innerText = 'Incomplete';
     this.removeEventListener('click',changeToComp);
     this.addEventListener('click',changeToInComp);
     changeListArray(parent.firstChild.innerText,'complete');
@@ -24,7 +24,7 @@ var changeToInComp = function(){
     var parent = this.parentElement;
     console.log('Changed to incomplete');
     parent.className = 'completed well';
-    this.innerText = 'Complete';
+    // this.innerText = 'Complete';
     this.removeEventListener('click',changeToInComp);
     this.addEventListener('click',changeToComp);
 
@@ -74,7 +74,7 @@ var createItemDom = function(text,status){
 
     itemLabel.innerText = text;
     itemCompBtn.className = 'btn btn-success';
-    itemCompBtn.innerText = (status == 'incomplete')?'Complete':'Incomplete';
+    // itemCompBtn.innerText = (status == 'incomplete')?'Complete':'Incomplete';
     if(status == 'incomplete'){
         itemCompBtn.addEventListener('click',changeToComp);
     }else{
@@ -83,7 +83,6 @@ var createItemDom = function(text,status){
 
 
     itemIncompBtn.className = 'btn btn-danger';
-    itemIncompBtn.innerText = '삭제하기';
     itemIncompBtn.addEventListener('click',removeItem);
 
     listItem.appendChild(itemLabel);
