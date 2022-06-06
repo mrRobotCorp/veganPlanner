@@ -23,6 +23,7 @@ body #fullpage { margin: 0 auto; }
 ::selection { background-color: #2dde91; color: #fff; } 
 
 .green { color: #2CD18A; } 
+.white { color: #fff; }
 
 /* ------------------- header ----------------------- */
 header { width: 1200px; margin: 0 auto; } 
@@ -46,13 +47,13 @@ header { width: 1200px; margin: 0 auto; }
 #section0 .intro p span { font-weight: bold; font-size: 18px; display: block; margin-bottom: -17px; } 
 
 #section0 #section0_right { position: relative; width: 600px; height: 400px; } 
-#section0 #section0_right #appSpalsh { position: absolute; top: -70px; left: 80px; margin-top: 50px; width: 290px; transition: all .5s; } 
-#section0 #section0_right #appSpalsh:hover { transform: scale(1.1); } 
-#section0 #section0_right #appTest { position: absolute; top: 80px; right: 15px; width: 270px; transition: all .5s; } 
-#section0 #section0_right #appTest:hover { transform: scale(1.1); } 
+#section0 #section0_right #appSpalsh { position: absolute; top: -70px; left: 80px; margin-top: 50px; width: 290px; transition: all .3s; } 
+#section0 #section0_right #appSpalsh:hover { transform: scale(1.05); } 
+#section0 #section0_right #appTest { position: absolute; top: 80px; right: 15px; width: 270px; transition: all .3s; } 
+#section0 #section0_right #appTest:hover { transform: scale(1.05); } 
 
 #section0 #toDown { position: absolute; bottom: 40px;}
-#section0 #down { width: 30px; animation: fade-in-top 0.7s cubic-bezier(0.445, 0.050, 0.550, 0.950) 2.5s both; } 
+#section0 #down { width: 30px; animation: fade-in-top 0.7s cubic-bezier(0.445, 0.050, 0.550, 0.950) 2s both; } 
 #section0 #down::before { content: url(../source/down_arrow.svg); opacity: .5;  } 
 #section0 #down:hover::before { opacity: 1; }
 
@@ -80,17 +81,23 @@ header { width: 1200px; margin: 0 auto; }
 #section2 #slide3 .fontInfo { color: #A1A1A1; font-size: 13px; font-weight: 400; } 
 
 /* ------------------- section3 ----------------------- */
-#section3 .testInfo { } 
+#section3 { width: 1200px; }
+#section3 .testInfo { position: absolute; top: 100px; text-align: right;} 
+#section3 .testInfo h2 { font-size: 28px; }
+#section3 #testQ { width: 370px; height: 350px; transform: rotate(-90deg); overflow-y: scroll; overflow-x: hidden; }
+#section3 #testQ div { transform: rotate(90deg); }
 #section3 #testLeft { width: 300px; margin-top: 50px; } 
 #section3 #testRight { width: 630px; margin-left: 50px; margin-bottom: 20px; } 
 
 /* ------------------- section4, 5 ----------------------- */
-#section4, #section5 { background-color: #2CD18A; } 
-#section4 h2 { display: block; } 
-#section4 #todo1 { width: 400px; } 
-#section4 #todo2 { width: 400px; } 
-#section5 #todo3 { width: 400px; } 
-#section5 #todo4 { width: 400px; } 
+#section4, #section5 { background-color: #2CD18A; position: relative; align-items: flex-start;} 
+#section4 h2 { margin-top: 70px; }
+#section4 img, #section5 img { position: absolute;}
+
+#section4 #todo1 { width: 450px; left: 310px; top: 120px;}
+#section4 #todo2 { width: 420px; right: 260px; bottom: 20px; } 
+#section5 #todo3 { width: 600px; left: 230px; top: 70px;}
+#section5 #todo4 { width: 450px; right: 330px; bottom: 50px;} 
 
 /* ------------------- section6 todo list --------------------- */
 #section6 .container h2::before { content: url(../source/favicon-32x32.png); } 
@@ -111,6 +118,7 @@ header { width: 1200px; margin: 0 auto; }
 /* ------------------- section7, 8, 9 ----------------------- */
 #section7 #community { width: 800px; } 
 
+#section8 h2 { margin-top: 70px; }
 #section8 #point { width: 750px; margin-top: 50px; } 
 
 #section9 { background: url(../source/lastBG.svg); } 
