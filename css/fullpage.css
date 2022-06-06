@@ -32,15 +32,11 @@ transition: all 0.3s ease-out; }
 
 .fp-controlArrow { user-select: none; position: absolute; z-index: 4; top: 50%; cursor: pointer; margin-top: -25px; -webkit-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); } 
 
-.fp-prev { left: 15px; } 
+.fp-prev { left: 5px; } 
+.fp-next { right: 5px; } 
 
-.fp-next { right: 15px; } 
-
-.fp-arrow { width: 0; height: 0; border-style: solid; } 
-
-.fp-arrow.fp-prev { border-width: 22.5px 18px 22.5px 0; border-color: transparent #00203F transparent transparent; } 
-
-.fp-arrow.fp-next { border-width: 22.5px 0 22.5px 18px; border-color: transparent transparent transparent #00203F; } 
+.fp-arrow.fp-prev { width: 25px; height: 35px; background: url(../source/left_arrow.svg) center no-repeat;}
+.fp-arrow.fp-next { width: 25px; height: 35px; background: url(../source/right_arrow.svg) center no-repeat;}
 
 /* .fp-scrollable { overflow: hidden; position: relative; } */
 /* .fp-scroller { overflow: hidden; } */
@@ -48,7 +44,7 @@ transition: all 0.3s ease-out; }
 .fp-notransition { -webkit-transition: none !important; transition: none !important; } 
 
 /* Overwriting styles for navigation bullets
- * --------------------------------------- */
+--------------------------------------- */
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span { background: #000; } 
 

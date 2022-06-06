@@ -66,11 +66,8 @@ var changeListArray = function(data,status){
 var createItemDom = function(text,status){
 
     var listItem = document.createElement('li');
-
     var itemLabel = document.createElement('label');
-
     var itemCompBtn = document.createElement('button');
-
     var itemIncompBtn = document.createElement('button');
 
     listItem.className = (status == 'incomplete')?'completed well':'uncompleted well';
@@ -86,7 +83,7 @@ var createItemDom = function(text,status){
 
 
     itemIncompBtn.className = 'btn btn-danger';
-    itemIncompBtn.innerText = 'Delete';
+    itemIncompBtn.innerText = '삭제하기';
     itemIncompBtn.addEventListener('click',removeItem);
 
     listItem.appendChild(itemLabel);
