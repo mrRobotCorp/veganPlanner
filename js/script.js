@@ -1,4 +1,7 @@
+
 window.onload = function(){
+
+    document.querySelector(".loading").style.visibility = "hidden";
 
     var myFullpage = new fullpage('#fullpage', {
         anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage', '6rdPage', '7rdPage', '8rdPage', '9rdPage' ],
