@@ -39,7 +39,7 @@ body #fullpage { margin: 0 auto; }
 
 /* ------------------- header ----------------------- */
 header { width: 1200px; margin: 0 auto; } 
-#header { width: 1200px; display: flex; justify-content: space-between; position: fixed; z-index: 100; } 
+#header {  width: 1200px; display: flex; justify-content: space-between; position: fixed; z-index: 100; } 
 #header h1 { cursor: pointer; } 
 #header h1 img { width: 60px; margin-top: 25px; } 
 #header nav #menu { margin-top: 30px; } 
@@ -72,7 +72,7 @@ header { width: 1200px; margin: 0 auto; }
 #section1 { flex-direction: column; } 
 #section1 div { width: 940px; margin-top: 30px; } 
 #section1 h2 { float: left; font-size: 23px; margin-bottom: 10px; } 
-#section1 iframe { margin: 10px auto; border-radius: 20px; } 
+#section1 iframe { margin: 10px auto; border-radius: 10px; border: none; } 
 
 /* ------------------- section2 ----------------------- */
 #section2 { width: 1200px; margin: 0 auto; text-align: left; } 
@@ -110,7 +110,7 @@ header { width: 1200px; margin: 0 auto; }
 #section4 img, #section5 img { position: absolute; } 
 
 #section4 #todo1 { width: 470px; left: 320px; top: 130px; } 
-#section4 #todo2 { width: 440px; right: 250px; bottom: -20px; } 
+#section4 #todo2 { width: 440px; right: 250px; bottom: 0px; } 
 #section5 #todo3 { width: 625px; left: 260px; top: 70px; } 
 #section5 #todo4 { width: 480px; right: 290px; bottom: 20px; } 
 
@@ -133,7 +133,7 @@ header { width: 1200px; margin: 0 auto; }
 #section6 .container .form-group label { font-weight: bold; display: block; margin-bottom: 20px; } 
 #section6 .container .form-group #itemInput { width: 300px; height: 90px; padding: 10px; border-radius: 5px; border: 1px solid #264361; } 
 #section6 .container #addButton, #clearButton { margin: 10px 5px; } 
-#section6 .form-group .btn { min-width: 100px; height: 40px; font-size: 11px; color: #fff; font-weight: bold; cursor: pointer; transition: all 0.3s ease; position: relative; display: inline-block; outline: none; border-radius: 20px; border: 2px solid #00203F; background: #00203F; } 
+#section6 .form-group .btn { min-width: 100px; height: 40px; font-family: Noto Sans KR; font-size: 12px; color: #fff; font-weight: 500; cursor: pointer; transition: all 0.3s ease; position: relative; display: inline-block; outline: none; border-radius: 20px; border: 2px solid #00203F; background: #00203F; } 
 #section6 .form-group .btn:hover { background: none; color: #00203F; } 
 
 /* ------------------- section7, 8, 9 ----------------------- */

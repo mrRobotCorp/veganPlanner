@@ -26,16 +26,6 @@ window.onload = function(){
     document.querySelector(".todoTxt").innerText = "투두리스트를 통해 실생활에서 직접 비건을 실천해보자!";
     document.querySelector(".communityTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
     document.querySelector(".pointTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
-    
-    // -------------------- section9 cursor ---------------------------
-    // const cursor = document.querySelector(".cursor");
-    // const circle = cursor.getBoundingClientRect();
-
-    // function follow(e){
-    //     gsap.to(cursor, {duration: .3, left: e.pageX - circle.width, top: e.pageY - circle.height});
-    // }
-
-    // document.addEventListener("mousemove", follow);
 
     // ---------------------- menu trigger -----------------------------
     // var trigerMenu = document.getElementById("menu");
@@ -58,8 +48,8 @@ window.onload = function(){
 }
 
 //^ CORS 허용
-res.setHeader('Access-Control-Allow-origin', 'https://www.svgrepo.com/');
-res.setHeader('Access-Control-Allow-Credentials', 'true');
+// res.setHeader('Access-Control-Allow-origin', 'https://www.svgrepo.com/');
+// res.setHeader('Access-Control-Allow-Credentials', 'true');
 
 // // 헤더에 작성된 출처만 브라우저가 리소스를 접근할 수 있도록 허용함.
 // Access-Control-Allow-Origin: <https://www.svgrepo.com/>
