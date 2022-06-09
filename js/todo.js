@@ -3,7 +3,6 @@ var addButton = document.getElementById('addButton');
 var addInput = document.getElementById('itemInput');
 var todoList = document.getElementById('todoList');
 var listArray = [];
-//declare addToList function
 
 function listItemObj(content, status) {
     this.content = '';
@@ -135,6 +134,6 @@ window.onload = function(){
     }
 
 };
-//add an event binder to the button
+
 addButton.addEventListener('click', addToList);
 clearButton.addEventListener('click', clearList);

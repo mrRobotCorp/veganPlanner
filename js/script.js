@@ -20,7 +20,7 @@ window.onload = function(){
     document.querySelector(".keyword2").innerText = "친근한";
     document.querySelector(".keyword3").innerText = "부드러운";
 
-    document.querySelector(".fontInfo").innerText = "Noto Snas로 가독성이 높은 서체로 전체 본문에 사용하였습니다.";
+    document.querySelector(".fontInfo").innerText = "Noto Sans로 가독성이 높은 서체로 전체 본문에 사용하였습니다.";
 
     document.querySelector(".testTxt").innerText = "진단테스트로 나의 비건 성향에 대해 알아보자";
     document.querySelector(".todoTxt").innerText = "투두리스트를 통해 실생활에서 직접 비건을 실천해보자!";
