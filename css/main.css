@@ -103,7 +103,7 @@ header { width: 1200px; margin: 0 auto; }
 #section6 #todoTitle { position: absolute; top: 13%;}
 
 #section6 .container { position: relative; height: 100vh; width: 100vw;}
-#section6 .container #todoLeft { position: absolute; top: 36%; left: 27%; margin-right: 80px; } 
+#section6 .container #todoLeft { position: absolute; top: 37%; left: 25%; width: 345px; margin-right: 80px; } 
 #todoLeft #todoList label { width: 80%; } 
 #todoLeft #todoList li { list-style-type: none; font-weight: 400; margin: 10px; display: flex; justify-content: space-between; } 
 
@@ -132,8 +132,6 @@ header { width: 1200px; margin: 0 auto; }
 #section8 #point { width: 750px; margin-top: 50px; } 
 
 #section9 { background: url(../source/section9.svg) center center no-repeat; background-size: cover;} 
-/* #section9 .cursor { position: absolute; width: 200px; height: 200px; border-radius: 50%; z-index: -1; user-select: none; pointer-events: none; background: url(../source/lastBG.svg) center center fixed; background-size: cover; border: 5px solid #fff; overflow: hidden; } */
-
 
 /* -------------- footer ------------------ */
 #scrollTop { border: 1px solid #00203F; align-content: center; width: 40px; height: 40px; border-radius: 50px; text-align: center; font-family:Verdana; font-size: 12px; bottom: 40px; right: 50px; position: fixed; z-index: 3; cursor: pointer; } 
