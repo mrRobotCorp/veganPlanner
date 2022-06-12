@@ -1,8 +1,9 @@
 
 window.onload = function(){
-
+    // ------------------ loading hide ------------------
     document.querySelector(".loading").style.visibility = "hidden";
 
+    // ------------------- section setting ----------------
     var myFullpage = new fullpage('#fullpage', {
         anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage', '6rdPage', '7rdPage', '8rdPage', '9rdPage' ],
         navigation: true,
@@ -10,21 +11,8 @@ window.onload = function(){
         menu: '#menu'
     });
 
-    var prevScrollpos = window.pageYOffset;
 
-    window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("header").style.top = "0";
-    } else {
-        document.getElementById("header").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-
-    }
-
-
-    // ------------------- text 삽입 -------------------
+    // ------------------- text -------------------
     document.getElementById("easyVegan").innerText = "쉬운 비건, 쉬운 실천!";
     
     document.querySelector(".logoInfo1").innerText = "비건플래너는 둥근 형태와 Sandoll 티비스켓 서체를 활용하여 친근감을 나타낸다. 미소 짓는 입과 이파리를 응용한 형태는 즐겁게 비건을 실천하는 이용자를 표현한다. 또한 새싹은 새로이 도전하는 사람들을 상징한다.";
@@ -39,25 +27,8 @@ window.onload = function(){
 
     document.querySelector(".testTxt").innerText = "진단테스트로 나의 비건 성향에 대해 알아보자";
     document.querySelector(".todoTxt").innerText = "투두리스트를 통해 실생활에서 직접 비건을 실천해보자!";
+    // document.querySelector(".customTxt").innerText = "나만의 커스텀 투두리스트를 채워보자!";
     document.querySelector(".communityTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
     document.querySelector(".pointTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
-
-    // ---------------------- menu trigger -----------------------------
-    // var trigerMenu = document.getElementById("menu");
-    // var gnbMenu = document.getElementById("menu");
     
-    // trigerMenu.onclick = function(){
-    //     gnbMenu.style.transition = "all .5s"
-    //     this.classList.toggle("active");
-    //     gnbMenu.classList.toggle("active");
-    // };
-    // window.onresize = function(){
-    //     console.log("onresize");
-    //     console.log(window.innerWidth);
-    //     gnbMenu.style.transition = "none"
-    
-    //     if(window.innerWidth > 768){
-    //         gnbMenu.classList.remove("active");
-    //     }
-    // }
 }

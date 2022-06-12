@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" >
+<html lang="ko">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta property="og:title" content="비플 : 비건 플래너" />
@@ -25,7 +25,6 @@
 
 <body>
     <div class="loading">
-        <!-- <div class="loader"></div> -->
         <img id="loader" src="./source/loader.gif" alt="loading">
     </div>
 
@@ -39,13 +38,6 @@
                     <li data-menuanchor="8rdPage"><a href="#8rdPage">커뮤니티</a></li>
                     <li data-menuanchor="9rdPage"><a href="#9rdPage">포인트 상점</a></li>
                 </ul>
-
-                <!-- <button id="mobileMenu" class="menu-trigger">
-                    <span class="blind">메뉴보기</span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button> -->
             </nav>
         </div>
     </header>
@@ -133,15 +125,14 @@
         <div class="section" id="section6">
             <div class="container">
                 <h2>투두리스트를 직접 작성하고 실천해봐요!</h2>
-                <h3><br>나만의 비건 투두 리스트</h3>
-
+                <p class="customTxt">나만의 커스텀 투두리스트를 채워보자!</p>
+                
                 <div id="todoLeft">
                     <ul id="todoList"></ul>
                 </div>
-
                 <div class="form-group">
-                    <label for="itemInput">To-do 추가하기</label>
-                    <input type="text" class="form-control" id="itemInput" maxlength="18">
+                    <label for="itemInput">리스트 추가하기</label>
+                    <input type="text" class="form-control" id="itemInput" maxlength="15">
                     <div>
                         <button id="addButton" class="btn btn-primary">추가하기</button>
                         <button id="clearButton" class="btn btn-danger">모두 삭제</button>
@@ -213,6 +204,7 @@
     <!-- All page JS -->
     <script src="./js/fullpage.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/script.js"></script>
 
 </body>
