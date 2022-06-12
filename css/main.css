@@ -146,7 +146,7 @@ header { width: 1200px; margin: 0 auto; }
 /* -------------- footer ------------------ */
 #scrollTop { border: 1px solid #00203F; align-content: center; width: 40px; height: 40px; border-radius: 50px; text-align: center; font-family:Verdana; font-size: 12px; bottom: 40px; right: 50px; position: fixed; z-index: 3; cursor: pointer; } 
 #scrollTop:hover { transition: 0.4s; color: #fff; background-color: #00203F; } 
-#scrollTop::before { content: "\2303"; position: absolute; width: 50px; top: 6px; left: -5px; color: #00203F; font-size: 15px; transition: all .4s; } 
+#scrollTop::before { content: "\2303"; position: absolute; width: 50px; top: 6px; left: -5px; color: #00203F; font-size: 15px; transition: .4s; } 
 #scrollTop:hover:before { color: #fff; } 
 #scrollTop a:active { color: #00203F; } 
 #scrollTop .topTxt { display: block; margin-top: 17px; font-size: 10px; } 
