@@ -139,7 +139,7 @@ header { width: 1200px; margin: 0 auto; }
 #section8 h2 { margin-top: 70px; } 
 #section8 #point { width: 750px; margin-top: 50px; } 
 
-#section9 { background: url(../source/lastBG.svg) no-repeat; } 
+#section9 { background: url(../source/section9.svg) center center no-repeat; background-size: cover;} 
 /* #section9 .cursor { position: absolute; width: 200px; height: 200px; border-radius: 50%; z-index: -1; user-select: none; pointer-events: none; background: url(../source/lastBG.svg) center center fixed; background-size: cover; border: 5px solid #fff; overflow: hidden; } */
 
 
