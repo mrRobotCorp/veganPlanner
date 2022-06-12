@@ -99,25 +99,26 @@ header { width: 1200px; margin: 0 auto; }
 #section5 #todo4 { width: 480px; right: 290px; bottom: 20px; } 
 
 /* ------------------- section6 todo list --------------------- */
-#section6 { background: url(../source/section6_BG.svg) center no-repeat; background-size: cover; } 
-#section6 .container .customTxt { margin-bottom: 100px; } 
+#section6 { background: url(../source/section6_BG.svg) center no-repeat; background-size: cover; flex-direction: column; } 
+#section6 #todoTitle { position: absolute; top: 13%;}
 
-#section6 .container #todoLeft { float: left; margin-right: 80px; } 
+#section6 .container { position: relative; height: 100vh; width: 100vw;}
+#section6 .container #todoLeft { position: absolute; top: 34%; left: 27%; margin-right: 80px; } 
 #todoLeft #todoList label { width: 80%; } 
-#todoLeft #todoList li { list-style-type: none; margin: 10px; display: flex; justify-content: space-between; } 
+#todoLeft #todoList li { list-style-type: none; font-weight: 400; margin: 10px; display: flex; justify-content: space-between; } 
 
 #todoLeft #todoList li .btn-success::before { content: url(../source/check.svg); } 
 #todoLeft #todoList li .btn-danger::before { content: url(../source/x.svg); } 
 #todoLeft #todoList li .btn-success { border: 2px solid #fff; border-radius: 20px; background: none; } 
 #todoLeft #todoList li .btn-danger { border: 2px solid #fff; border-radius: 20px; background: none; } 
-.uncompleted label { color: #00203F; font-weight: 500; text-decoration: line-through; } 
+.uncompleted label { color: rgba(33, 43, 54, 0.643); font-weight: 400; text-decoration: line-through; } 
 #todoList .btn { margin-left: 10px; } 
 
-#section6 .container .form-group { float: right; margin-bottom: 70px; } 
-#section6 .container .form-group label { font-weight: bold; display: block; margin-bottom: 20px; } 
-#section6 .container .form-group #itemInput { width: 300px; height: 90px; padding: 10px; border-radius: 5px; border: 1px solid #264361; } 
-#section6 .container #addButton, #clearButton { margin: 20px 5px; } 
-#section6 .form-group .btn { min-width: 100px; height: 40px; font-family: Noto Sans KR; font-size: 12px; color: #fff; font-weight: 500; cursor: pointer; transition: all 0.3s ease; position: relative; display: inline-block; outline: none; border-radius: 20px; border: 2px solid #00203F; background: #00203F; } 
+#section6 .container .form-group { position: absolute; top: 35%; right: 24.5%; margin-bottom: 70px; } 
+#section6 .container .form-group label { font-weight: bold; margin-bottom: 60px; font-size: 18px; display: block; } 
+#section6 .container .form-group #itemInput { width: 300px; height: 110px; padding: 10px; font-family: 'Noto Sans KR'; font-size: 16px; font-weight: 400; border-radius: 18px; border: 1px solid #264361; } 
+#section6 .container #addButton, #clearButton { margin: 35px 5px; } 
+#section6 .form-group .btn { min-width: 100px; height: 40px; font-family: 'Noto Sans KR'; font-size: 12px; color: #fff; font-weight: 500; cursor: pointer; transition: all 0.3s ease; position: relative; display: inline-block; outline: none; border-radius: 20px; border: 2px solid #00203F; background: #00203F; } 
 #section6 .form-group .btn:hover { background: none; color: #00203F; } 
 
 /* ------------------- section7, 8, 9 ----------------------- */
