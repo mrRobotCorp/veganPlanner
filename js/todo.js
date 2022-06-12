@@ -10,25 +10,19 @@ function listItemObj(content, status) {
 }
 var changeToComp = function(){
     var parent = this.parentElement;
-    console.log('Changed to complete');
     parent.className = 'uncompleted well';
-    // this.innerText = 'Incomplete';
     this.removeEventListener('click',changeToComp);
     this.addEventListener('click',changeToInComp);
     changeListArray(parent.firstChild.innerText,'complete');
-
 }
 
 var changeToInComp = function(){
     var parent = this.parentElement;
-    console.log('Changed to incomplete');
     parent.className = 'completed well';
-    // this.innerText = 'Complete';
     this.removeEventListener('click',changeToInComp);
     this.addEventListener('click',changeToComp);
 
     changeListArray(parent.firstChild.innerText,'incomplete');
-
 }
 
 var removeItem = function(){
@@ -44,15 +38,11 @@ var removeItem = function(){
             break;
         }
     }
-
-
 }
 
-//function to change the todo list array
 var changeListArray = function(data,status){
 
     for(var i=0; i < listArray.length; i++){
-
         if(listArray[i].content == data){
             listArray[i].status = status;
             refreshLocal();
@@ -73,7 +63,6 @@ var createItemDom = function(text,status){
 
     itemLabel.innerText = text;
     itemCompBtn.className = 'btn btn-success';
-    // itemCompBtn.innerText = (status == 'incomplete')?'Complete':'Incomplete';
     if(status == 'incomplete'){
         itemCompBtn.addEventListener('click',changeToComp);
     }else{
@@ -83,7 +72,6 @@ var createItemDom = function(text,status){
 
     itemIncompBtn.className = 'btn btn-danger';
     itemIncompBtn.addEventListener('click',removeItem);
-
     listItem.appendChild(itemLabel);
     listItem.appendChild(itemCompBtn);
     listItem.appendChild(itemIncompBtn);
@@ -126,7 +114,6 @@ window.onload = function(){
 
         for(var i=0; i<listArray.length;i++){
             var data = listArray[i].content;
-
             var item = createItemDom(data,listArray[i].status);
             todoList.appendChild(item);
         }

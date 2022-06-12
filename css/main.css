@@ -103,7 +103,7 @@ header { width: 1200px; margin: 0 auto; }
 #section6 #todoTitle { position: absolute; top: 13%;}
 
 #section6 .container { position: relative; height: 100vh; width: 100vw;}
-#section6 .container #todoLeft { position: absolute; top: 34%; left: 27%; margin-right: 80px; } 
+#section6 .container #todoLeft { position: absolute; top: 36%; left: 27%; margin-right: 80px; } 
 #todoLeft #todoList label { width: 80%; } 
 #todoLeft #todoList li { list-style-type: none; font-weight: 400; margin: 10px; display: flex; justify-content: space-between; } 
 
@@ -116,10 +116,10 @@ header { width: 1200px; margin: 0 auto; }
 .uncompleted label { color: rgba(33, 43, 54, 0.643); font-weight: 400; text-decoration: line-through; } 
 #todoList .btn { margin-left: 10px; } 
 
-#section6 .container .form-group { position: absolute; top: 35%; right: 24.5%; margin-bottom: 70px; } 
-#section6 .container .form-group label { font-weight: bold; margin-bottom: 60px; font-size: 18px; display: block; } 
-#section6 .container .form-group #itemInput { width: 300px; height: 110px; padding: 10px; font-family: 'Noto Sans KR'; font-size: 16px; font-weight: 400; border-radius: 18px; border: 1px solid #264361; } 
-#section6 .container #addButton, #clearButton { margin: 35px 5px; } 
+#section6 .container .form-group { position: absolute; top: 36%; right: 24%; margin-bottom: 70px; } 
+#section6 .container .form-group label { font-weight: bold; margin-bottom: 50px; font-size: 18px; display: block; } 
+#section6 .container .form-group #itemInput { width: 300px; height: 110px; padding: 10px; margin-left: 10px; font-family: 'Noto Sans KR'; font-size: 16px; font-weight: 400; border-radius: 18px; border: 1px solid #264361; } 
+#section6 .container #addButton, #clearButton { margin: 35px 10px; } 
 #section6 .form-group .btn { min-width: 100px; height: 40px; font-family: 'Noto Sans KR'; font-size: 12px; color: #fff; font-weight: 500; cursor: pointer; transition: all 0.3s ease; position: relative; display: inline-block; outline: none; border-radius: 20px; border: 2px solid #00203F; background: #00203F; } 
 #section6 .form-group .btn:hover { background: none; color: #00203F; } 
 
@@ -145,7 +145,7 @@ header { width: 1200px; margin: 0 auto; }
 
 #footerWrap { text-align: left; } 
 #footerWrap .footer { height: 200px; width: 1200px; padding: 30px; font-size: 12px; } 
-#footerWrap .footer::before { content: url(../source/BI_footer.png); } 
+#footerWrap .footer::before { content: url(../source/BI_footer.svg); } 
 #footerWrap .footer #sns li { display: inline; float: right; margin: 0 10px; } 
 #footerWrap .footer #sns li img { width: 35px; } 
 #footerWrap .footer #footerInfo { display: flex; justify-content: flex-start; margin-top: 10px; } 
