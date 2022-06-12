@@ -109,8 +109,10 @@ header { width: 1200px; margin: 0 auto; }
 
 #todoLeft #todoList li .btn-success::before { content: url(../source/check.svg); } 
 #todoLeft #todoList li .btn-danger::before { content: url(../source/x.svg); } 
-#todoLeft #todoList li .btn-success { border: 2px solid #fff; border-radius: 20px; background: none; } 
-#todoLeft #todoList li .btn-danger { border: 2px solid #fff; border-radius: 20px; background: none; } 
+#todoLeft #todoList li .btn-success { padding: 1px 3px; border: 2px solid #fff; border-radius: 20px; background: none; transition: all .3s; } 
+#todoLeft #todoList li .btn-danger { border: 2px solid #fff; border-radius: 20px; background: none; transition: all .3s; } 
+#todoLeft #todoList li .btn-success:hover,
+#todoLeft #todoList li .btn-danger:hover { background-color: #00203F; border: 2px solid #00203F; }
 .uncompleted label { color: rgba(33, 43, 54, 0.643); font-weight: 400; text-decoration: line-through; } 
 #todoList .btn { margin-left: 10px; } 
 

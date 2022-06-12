@@ -11,7 +11,6 @@ window.onload = function(){
         menu: '#menu'
     });
 
-
     // ------------------- text -------------------
     document.getElementById("easyVegan").innerText = "쉬운 비건, 쉬운 실천!";
     
@@ -27,7 +26,6 @@ window.onload = function(){
 
     document.querySelector(".testTxt").innerText = "진단테스트로 나의 비건 성향에 대해 알아보자";
     document.querySelector(".todoTxt").innerText = "투두리스트를 통해 실생활에서 직접 비건을 실천해보자!";
-    // document.querySelector(".customTxt").innerText = "나만의 커스텀 투두리스트를 채워보자!";
     document.querySelector(".communityTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
     document.querySelector(".pointTxt").innerText = "모두와 서로 도우며 비건 생활을 더욱 윤택하게 만들어보자!";
     
