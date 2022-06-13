@@ -9,12 +9,9 @@
 * Copyright (C) 2021 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo */
 
 html.fp-enabled,
-.fp-enabled body { margin: 0; padding: 0; overflow: hidden;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0); } 
+.fp-enabled body { margin: 0; padding: 0; overflow: hidden; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); } 
 
-.fp-section { position: relative; -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
--moz-box-sizing: border-box; /* <=28 */
-box-sizing: border-box; height: 100%; display: block; } 
+.fp-section { position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: 100%; display: block; } 
 
 .fp-slide { float: left; } 
 
@@ -33,8 +30,10 @@ transition: all 0.3s ease-out; }
 .fp-prev { left: 5px; } 
 .fp-next { right: 5px; } 
 
-.fp-arrow.fp-prev { width: 25px; height: 35px; background: url(../source/left_arrow.svg) center no-repeat;}
-.fp-arrow.fp-next { width: 25px; height: 35px; background: url(../source/right_arrow.svg) center no-repeat;}
+.fp-arrow.fp-prev { width: 25px; height: 35px; background: url(../source/left_arrow.svg) center no-repeat; transition: all .3s; }
+.fp-arrow.fp-next { width: 25px; height: 35px; background: url(../source/right_arrow.svg) center no-repeat; transition: all .3s; }
+.fp-arrow.fp-prev:hover { transform: scale(1.2);}
+.fp-arrow.fp-next:hover { transform: scale(1.2);}
 
 .fp-notransition { -webkit-transition: none !important; transition: none !important; } 
 
@@ -58,10 +57,8 @@ transition: all 0.3s ease-out; }
 .fp-auto-height.fp-section,
 .fp-auto-height .fp-slide { height: auto !important; } 
 
-/* Used with autoScrolling: false */
 .fp-scrollable .fp-section,
-.fp-scrollable .fp-slide { /* Fallback for browsers that do not support Custom Properties */
- height: 100vh; height: calc(var(--vh, 1vh) * 100); } 
+.fp-scrollable .fp-slide { height: 100vh; height: calc(var(--vh, 1vh) * 100); } 
 
 /* Disabling vertical centering on scrollable elements */
 .fp-overflow { justify-content: flex-start; } 

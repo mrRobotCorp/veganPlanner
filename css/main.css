@@ -89,18 +89,18 @@ header { width: 1200px; margin: 0 auto; }
 
 /* ------------------- section4, 5 ----------------------- */
 #section4, #section5 { background-color: #2CD18A; position: relative; align-items: flex-start; } 
-#section4 #todoInfo { margin-top: 70px; } 
+#section4 #todoInfo { margin-top: 80px; } 
 #section4 .todoTxt { color: #fff; } 
 #section4 img, #section5 img { position: absolute; } 
 
-#section4 #todo1 { width: 470px; left: 320px; top: 130px; } 
-#section4 #todo2 { width: 440px; right: 250px; bottom: 0px; } 
+#section4 #todo1 { width: 470px; left: 300px; top: 130px; } 
+#section4 #todo2 { width: 440px; right: 230px; bottom: 0px; } 
 #section5 #todo3 { width: 625px; left: 260px; top: 70px; } 
 #section5 #todo4 { width: 480px; right: 290px; bottom: 20px; } 
 
 /* ------------------- section6 todo list --------------------- */
 #section6 { background: url(../source/section6_BG.svg) center no-repeat; background-size: cover; flex-direction: column; } 
-#section6 #todoTitle { position: absolute; top: 13%;}
+#section6 #todoTitle { position: absolute; top: 14%;}
 
 #section6 .container { position: relative; height: 100vh; width: 100vw;}
 #section6 .container #todoLeft { position: absolute; top: 37%; left: 24.5%; width: 345px; height: 280px; overflow-y: scroll; margin-right: 80px; } 
@@ -109,7 +109,7 @@ header { width: 1200px; margin: 0 auto; }
 #section6 #todoLeft::-webkit-scrollbar-thumb { background-color: rgba(0, 31, 63, 0.422); border-radius: 16px; border: 4px solid transparent; } 
 
 #todoLeft #todoList li { background-color: #fff; border-radius: 28px; list-style-type: none; font-weight: 400; padding: 10px; margin: 10px; display: flex; justify-content: space-between; } 
-#todoLeft #todoList label { width: 80%; margin-top: 3px; } 
+#todoLeft #todoList label { width: 80%; margin-top: 5px; } 
 
 #todoLeft #todoList li .btn-success::before { content: url(../source/check.svg); } 
 #todoLeft #todoList li .btn-danger::before { content: url(../source/x.svg); } 
@@ -118,7 +118,7 @@ header { width: 1200px; margin: 0 auto; }
 #todoLeft #todoList li .btn-success:hover,
 #todoLeft #todoList li .btn-danger:hover { opacity: 1; }
 .uncompleted label { color: rgba(33, 43, 54, 0.643); font-weight: 400; text-decoration: line-through; } 
-#todoList .btn { margin-left: 10px; } 
+#todoList .btn { margin-left: 10px; }
 
 #section6 .container .form-group { position: absolute; top: 36%; right: 24%; margin-bottom: 70px; } 
 #section6 .container .form-group label { font-weight: bold; margin-bottom: 50px; font-size: 18px; display: block; } 
@@ -129,10 +129,10 @@ header { width: 1200px; margin: 0 auto; }
 
 /* ------------------- section7, 8, 9 ----------------------- */
 #section7 { flex-direction: column; } 
-#section7 .commuInfo { margin-top: 40px; } 
+#section7 .commuInfo { margin-top: 50px; } 
 #section7 #community { width: 1000px; margin-top: 20px; } 
 
-#section8 h2 { margin-top: 70px; } 
+#section8 h2 { margin-top: 80px; } 
 #section8 #point { width: 750px; margin-top: 50px; } 
 
 #section9 { background: url(../source/section9.svg) center center no-repeat; background-size: cover;} 
