@@ -31,7 +31,7 @@ body #fullpage { margin: 0 auto; }
 header { width: 1200px; margin: 0 auto; } 
 #header {  width: 1200px; display: flex; justify-content: space-between; position: fixed; z-index: 100; } 
 #header h1 { cursor: pointer; } 
-#header h1 img { width: 60px; margin-top: 25px; } 
+#header h1 img { width: 70px; margin-top: 26px; } 
 #header nav #menu { margin-top: 30px; } 
 #header nav #menu li { display: inline; margin: 22px 15px; padding: 5px 3px; font-family: 'Noto Sans KR'; font-weight: bold; font-size: 15px; color: #000; cursor: pointer; } 
 #header nav #menu li.active { border-bottom: 2px solid #000; } 
@@ -82,7 +82,7 @@ header { width: 1200px; margin: 0 auto; }
 #section2 #slide3 .fontInfo { color: #A1A1A1; font-size: 13px; font-weight: 400; } 
 
 /* ------------------- section3 ----------------------- */
-#section3 #testSlide { width: 770px; margin-top: 20px; }
+#section3 #testSlide { width: 770px; margin-top: 30px; }
 
 #section3 .testInfo { text-align: right; margin: 0 0 380px 0;} 
 #section3 .testInfo h2 { font-size: 28px; } 
@@ -146,15 +146,15 @@ header { width: 1200px; margin: 0 auto; }
 #scrollTop .topTxt { display: block; margin-top: 17px; font-size: 10px; } 
 
 #footerWrap { text-align: left; } 
-#footerWrap .footer { height: 200px; width: 1200px; padding: 30px; font-size: 12px; } 
+#footerWrap .footer { height: 200px; width: 1200px; padding: 30px; font-size: 13px; } 
 #footerWrap .footer::before { content: url(../source/BI_footer.svg); } 
 #footerWrap .footer #sns li { display: inline; float: right; margin: 0 10px; } 
 #footerWrap .footer #sns li img { width: 35px; } 
-#footerWrap .footer #footerInfo { display: flex; justify-content: flex-start; margin-top: 10px; } 
+#footerWrap .footer #footerInfo { display: flex; justify-content: flex-start; margin-top: 5px; } 
 #footerWrap .footer #footerInfo dl { margin: 10px 25px 20px 0; } 
-#footerWrap .footer #footerInfo dl dd a { color: #00203F; } 
 #footerWrap .footer #footerInfo dl dt { margin-bottom: 10px; font-weight: bold; } 
-#footerWrap .footer #copyright { margin-top: 35px; font-size: 9px; letter-spacing: 1px; } 
+#footerWrap .footer #footerInfo dl dd a { color: #00203F; } 
+#footerWrap .footer #copyright { margin-top: 25px; font-size: 10px; letter-spacing: 1px; } 
 
 
 /* -------------- mobile menu --------------- */
