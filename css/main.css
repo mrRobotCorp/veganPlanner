@@ -62,7 +62,7 @@ header { width: 1200px; margin: 0 auto; }
 /* ------------------- section1 ----------------------- */
 #section1 { flex-direction: column; } 
 #section1 div { width: 940px; margin-top: 30px; } 
-#section1 h2 { float: left; font-size: 23px; margin-bottom: 10px; } 
+#section1 h2 { float: left; font-size: 23px; margin-bottom: 7px; } 
 #section1 iframe { margin: 10px auto; border-radius: 10px; border: none; } 
 
 /* ------------------- section2 ----------------------- */
