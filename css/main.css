@@ -49,9 +49,9 @@ header { width: 1200px; margin: 0 auto; }
 #section0 .intro p span { font-weight: bold; font-size: 18px; display: block; margin-bottom: -17px; } 
 
 #section0 #section0_right { position: relative; width: 600px; height: 400px; } 
-#section0 #section0_right #appSpalsh { position: absolute; top: -70px; left: 70px; margin-top: 50px; width: 300px; transition: all .3s; } 
+#section0 #section0_right #appSpalsh { position: absolute; top: -80px; left: 70px; margin-top: 50px; width: 300px; transition: all .3s; } 
 #section0 #section0_right #appSpalsh:hover { transform: scale(1.05); } 
-#section0 #section0_right #appTest { position: absolute; top: 80px; right: 15px; width: 280px; transition: all .3s; } 
+#section0 #section0_right #appTest { position: absolute; top: 60px; right: 15px; width: 280px; transition: all .3s; } 
 #section0 #section0_right #appTest:hover { transform: scale(1.05); } 
 
 #section0 #toDown { position: absolute; bottom: 40px; } 
