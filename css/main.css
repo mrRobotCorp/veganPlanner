@@ -79,7 +79,7 @@ header { width: 1200px; margin: 0 auto; }
 #section2 #slide2 #keyword .keyword:hover { color: #fff; background-color: #2CD18A; } 
 
 #section2 #slide3 #fontType { width: 500px; margin-bottom: 70px; } 
-#section2 #slide3 #useFont { width: 300px; margin: 20px 0 0 80px; } 
+#section2 #slide3 #useFont { width: 300px; margin: 20px 0 0 100px; } 
 #section2 #slide3 .fontInfo { color: #A1A1A1; font-size: 14px; font-weight: 300; } 
 
 /* ------------------- section3 ----------------------- */
@@ -148,7 +148,7 @@ header { width: 1200px; margin: 0 auto; }
 
 #footerWrap { text-align: left; } 
 #footerWrap .footer { height: 200px; width: 1200px; padding: 30px; font-size: 14px; } 
-#footerWrap .footer::before { content: url(../source/BI_footer.svg); } 
+#footerWrap .footer::before { content: url(../source/BI_light.svg); margin-left: -5px;} 
 #footerWrap .footer #sns li { display: inline; float: right; margin: 0 10px; } 
 #footerWrap .footer #sns li img { width: 35px; transition: all .3s; } 
 #footerWrap .footer #sns li img:hover { opacity: .6; }
