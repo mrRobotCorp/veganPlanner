@@ -28,8 +28,8 @@
 <line x1="238.195" y1="45.7567" x2="7.63361e-05" y2="45.7567" stroke="#00203F" stroke-opacity="0.5"/>
 <line y1="147.974" x2="238.195" y2="147.974" stroke="#00203F" stroke-opacity="0.5"/>
 <line x1="238.195" y1="87.8376" x2="7.63643e-05" y2="87.8377" stroke="#00203F" stroke-opacity="0.5"/>
-<text fill="#A1A1A1" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="330" y="29.812">App store logo</tspan></text>
-<text fill="#A1A1A1" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="330" y="314.812">Survice logo</tspan></text>
+<text fill="#A1A1A1" xml:space="preserve" style="white-space: pre" font-family="Pretendard" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="330" y="29.812">App store logo</tspan></text>
+<text fill="#A1A1A1" xml:space="preserve" style="white-space: pre" font-family="Pretendard" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="330" y="314.812">Survice logo</tspan></text>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_90_38" transform="translate(-0.00292893) scale(0.00121922 0.00200401)"/>

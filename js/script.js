@@ -131,7 +131,7 @@ window.onload = function(){
     // ------------------- innerText ----------------------
     document.getElementById("easyVegan").innerText = "쉬운 비건, 쉬운 실천!";
     
-    document.querySelector(".logoInfo1").innerText = "비건플래너는 둥근 형태와 Sandoll 티비스켓 서체를 활용하여 친근감을 나타낸다. 미소 짓는 입과 이파리를 응용한 형태는 즐겁게 비건을 실천하는 이용자를 표현한다. 또한 새싹은 새로이 도전하는 사람들을 상징한다.";
+    document.querySelector(".logoInfo1").innerText = "비건플래너는 둥근 형태와 Sandoll 티비스켓 서체를 활용하여 친근감을 나타냅니다. 미소 짓는 입과 이파리를 응용한 형태는 즐겁게 비건을 실천하는 이용자를 표현합니다. 또한 새싹은 새로이 도전하는 사람들을 상징합니다. 마지막으로 투두노트를 상징하는 네모에 새싹, 즉 이용자의 즐거움과 도전이 기록됨을 상징합니다.";
     document.querySelector(".logoInfo2").innerText = "비건과 플래너를 합친 단어와 비건하는 피플(people)의 줄임말로 이중적인 의미가 담겼습니다. 이러한 의미들을 담은 ‘비플’이이라는 글자에 자라나는 이파리를 달아 목표를 달성하는  깃발처럼 보이게 제작했습니다.";
     document.querySelector(".colorInfo").innerText = "전체적으로 푸릇푸릇하고 시원안 비주얼을 컨셉으로하여 부드러운 화이트톤으로 안정감 있어 보이게했습니다.  시원한 녹색과 남색을 포인트 컬러로 사용했습니다.";
 
