@@ -32,9 +32,9 @@ body #fullpage { margin: 0 auto; }
 header { width: 1200px; margin: 0 auto; } 
 #header {  width: 1200px; display: flex; justify-content: space-between; position: fixed; z-index: 100; } 
 #header h1 { cursor: pointer; } 
-#header h1 img { width: 70px; margin-top: 26px; } 
+#header h1 img { width: 70px; margin-top: 25px; } 
 #header nav #menu { margin-top: 30px; } 
-#header nav #menu li { display: inline; margin: 22px 15px; padding: 5px 3px; font-family: Pretendard; font-weight: bold; font-size: 15px; color: #000; cursor: pointer; } 
+#header nav #menu li { display: inline; margin: 22px 15px; padding: 5px 3px; font-family: Pretendard; font-weight: bold; font-size: 16px; color: #000; cursor: pointer; } 
 #header nav #menu li.active { border-bottom: 2px solid #000; } 
 #header nav #menu li a { text-decoration:none; color: #000; } 
 #header nav #menu li:hover { border-bottom: 2px solid #000; } 
